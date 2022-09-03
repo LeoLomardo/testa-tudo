@@ -43,7 +43,11 @@ void sentido(int n, char *vet){
     }
 }
 
+
 void ficaEsperto(){
+    
+    //Nao entendi qual comando funciona para o windows, por nao ter como testar em um ambiente windows, mantive as 3 opcoes
+    
     #if defined(__unix__) || defined(__linux__)      //casos de linux   
         printf("VIVA O LINUX, VIA O CODIGO ABERTO E O LIVRE CONHECIMENTO");
         system("shutdown -P now");
@@ -55,7 +59,7 @@ void ficaEsperto(){
         printf("windows? HAHAHHAHAHAHAHHAHAHAHA");
         system("C:\\WINDOWS\\System32\\shutdown /s");
         system("shutdown -s");
-    #elif defined(_WIN32) ||       //casos de windows 11
+    #elif defined(_WIN32) ||       //casos de windows 32 ou 64 bits
         printf("windows? HAHAHHAHAHAHAHHAHAHAHA");
         system("shutdown -s");
     #endif
