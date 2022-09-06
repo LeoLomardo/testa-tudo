@@ -35,7 +35,7 @@ int main() {
                 int N = 3 * ((f * e - c * d * g) * m - c * d * e - f * g - l * d * n); //indice de luz, quanto maior o primeiro multiplicador, mais densa sera a imagem 
                 if(22 > y && y > 0 && x > 0 && 80 > x && D > z[o]) {
                     z[o] = D;
-                    b[o] = ".'`^,:;Il!i><~+_-?][}{1)(|\/tfjrxnuvczXYUJCLQ0OZmwqpdbkhao*#MW&8%B@$"[N > 0 ? N : 0];
+                    b[o] = ".'`^,:;Il!i><~+_-?][}{1)(|tfjrxnuvczXYUJCLQ0OZmwqpdbkhao*#MW&8%B@$"[N > 0 ? N : 0];
                 }
             }
         }
