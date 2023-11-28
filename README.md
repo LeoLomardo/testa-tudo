@@ -1,5 +1,5 @@
 # Testa tudo
-Repositório para armazenas códigos pontuais que eu fiz para testar/praticar alguma coisa nova que aprendi. 
+Repositório para armazenas códigos pontuais, que eu fiz ou peguei na internet, para testar/praticar alguma coisa nova que aprendi. 
 
 **---NÃO EXECUTE NENHUM DOS CÓDIGOS SEM ANTES LER E TER TOTAL NOÇÃO DO QUE ELE FARÁ!!!---**
 
