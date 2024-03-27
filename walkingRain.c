@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-#define MAX_DROPS 700
+#define MAX_DROPS 900
 
 typedef struct {
     int x, y;
