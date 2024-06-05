@@ -20,7 +20,6 @@ void calculateCRC(char *message, char *generator, FILE *arquivo, char *resultado
     int step = 1;
     
     for (int i = 0; i <= msgLen; i++) {
-        // Realizar a operação XOR se o bit atual for '1'
         if (dividend[i] == '1') {
             quotient[i] = '1'; // Define o bit do quociente como '1'
             
@@ -37,6 +36,12 @@ void calculateCRC(char *message, char *generator, FILE *arquivo, char *resultado
             // Imprimir o resultado da operação XOR
             fprintf(arquivo, "%s <--- resultado\n\n", dividend);
 
+            step++;
+        }else if( dividend[i] == 0){
+            fprintf(arquivo, "Passo %d:\n", step);
+            fprintf(arquivo, "%s <--- entrada deslocada para a direita com %d zeros\n", dividend, i);
+            fprintf(arquivo, "%*s%s <--- divisor\n", i, "", generator); // Alinha o divisor com a parte do dividendo
+            fprintf(arquivo, "------------------\n");
             step++;
         }
     }
