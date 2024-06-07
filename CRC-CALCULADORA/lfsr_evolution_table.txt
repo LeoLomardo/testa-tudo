@@ -1,0 +1,69 @@
+\begin{tabular}{|c|}
+\hline
+Estado do LFSR \\
+\hline
+00000 \\
+\hline
+00000 \\
+\hline
+00000 \\
+\hline
+00000 \\
+\hline
+00000 \\
+\hline
+00000 \\
+\hline
+00000 \\
+\hline
+00000 \\
+\hline
+00000 \\
+\hline
+00000 \\
+\hline
+00000 \\
+\hline
+00000 \\
+\hline
+00000 \\
+\hline
+00000 \\
+\hline
+00000 \\
+\hline
+00000 \\
+\hline
+00000 \\
+\hline
+00000 \\
+\hline
+00000 \\
+\hline
+00000 \\
+\hline
+00000 \\
+\hline
+00000 \\
+\hline
+00000 \\
+\hline
+00000 \\
+\hline
+00000 \\
+\hline
+00000 \\
+\hline
+00000 \\
+\hline
+00000 \\
+\hline
+00000 \\
+\hline
+00000 \\
+\hline
+00000 \\
+\hline
+00000 \\
+\hline
+\end{tabular}

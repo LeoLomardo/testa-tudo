@@ -1,75 +1,38 @@
-Estado inicial do LFSR: 000000
-\begin{table}[h!]
+Estado inicial do LFSR: \begin{table}[h!]
 \centering
-\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|}
 \hline
-$t$ & $R_6$ & $R_5$ & $R_4$ & $R_3$ & $R_2$ & $R_1$ & $R_0$ & $I(t)$ & $O(t)$ \\
-\hline
-1 & 1 & 0 & 0 & 0 & 0 & 0 & 1 & 0 \\
-\hline
-2 & 1 & 1 & 0 & 0 & 0 & 0 & 1 & 0 \\
-\hline
-3 & 0 & 1 & 1 & 0 & 0 & 0 & 0 & 0 \\
-\hline
-4 & 1 & 0 & 1 & 1 & 0 & 0 & 0 & 0 \\
-\hline
-5 & 0 & 1 & 0 & 1 & 1 & 0 & 1 & 0 \\
-\hline
-6 & 0 & 0 & 1 & 0 & 1 & 1 & 1 & 0 \\
-\hline
-7 & 0 & 0 & 0 & 1 & 0 & 1 & 1 & 1 \\
-\hline
-8 & 1 & 0 & 0 & 0 & 1 & 0 & 0 & 1 \\
-\hline
-9 & 0 & 1 & 0 & 0 & 0 & 1 & 1 & 0 \\
-\hline
-10 & 0 & 0 & 1 & 0 & 0 & 0 & 1 & 1 \\
-\hline
-11 & 1 & 0 & 0 & 1 & 0 & 0 & 0 & 0 \\
-\hline
-12 & 1 & 1 & 0 & 0 & 1 & 0 & 1 & 0 \\
-\hline
-13 & 0 & 1 & 1 & 0 & 0 & 1 & 1 & 0 \\
-\hline
-14 & 0 & 0 & 1 & 1 & 0 & 0 & 0 & 1 \\
-\hline
-15 & 0 & 0 & 0 & 1 & 1 & 0 & 1 & 0 \\
-\hline
-16 & 1 & 0 & 0 & 0 & 1 & 1 & 0 & 0 \\
-\hline
-17 & 1 & 1 & 0 & 0 & 0 & 1 & 1 & 1 \\
-\hline
-18 & 1 & 1 & 1 & 0 & 0 & 0 & 0 & 1 \\
-\hline
-19 & 0 & 1 & 1 & 1 & 0 & 0 & 1 & 0 \\
-\hline
-20 & 1 & 0 & 1 & 1 & 1 & 0 & 0 & 0 \\
-\hline
-21 & 1 & 1 & 0 & 1 & 1 & 1 & 1 & 0 \\
-\hline
-22 & 0 & 1 & 1 & 0 & 1 & 1 & 0 & 1 \\
-\hline
-23 & 0 & 0 & 1 & 1 & 0 & 1 & 1 & 1 \\
-\hline
-24 & 1 & 0 & 0 & 1 & 1 & 0 & 1 & 1 \\
-\hline
-25 & 0 & 1 & 0 & 0 & 1 & 1 & 1 & 0 \\
-\hline
-26 & 0 & 0 & 1 & 0 & 0 & 1 & 0 & 1 \\
-\hline
-27 & 1 & 0 & 0 & 1 & 0 & 0 & 1 & 1 \\
-\hline
-28 & 1 & 1 & 0 & 0 & 1 & 0 & 1 & 0 \\
-\hline
-29 & 1 & 1 & 1 & 0 & 0 & 1 & 0 & 0 \\
-\hline
-30 & 1 & 1 & 1 & 1 & 0 & 0 & 1 & 1 \\
-\hline
-31 & 1 & 1 & 1 & 1 & 1 & 0 & 0 & 0 \\
-\hline
-32 & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 0 \\
-\hline
-\end{tabular}
-\caption{Evolução do LFSR}
-\label{tab:lfsr}
-\end{table}
+Passo & R5 & R4 & R3 & R2 & R1 & R0 & Feedback & Bits Restantes \\ \hline
+   0 & 0 & 0 & 0 & 0 & 0 & 0 & Passo 1: 110101
+Passo 2: 011010
+Passo 3: 001101
+Passo 4: 110011
+Passo 5: 011001
+Passo 6: 001100
+Passo 7: 110011
+Passo 8: 101100
+Passo 9: 100011
+Passo 10: 010001
+Passo 11: 111101
+Passo 12: 011110
+Passo 13: 111010
+Passo 14: 011101
+Passo 15: 001110
+Passo 16: 000111
+Passo 17: 000011
+Passo 18: 110100
+Passo 19: 101111
+Passo 20: 100010
+Passo 21: 100100
+Passo 22: 010010
+Passo 23: 111100
+Passo 24: 101011
+Passo 25: 010101
+Passo 26: 111111
+Passo 27: 011111
+Passo 28: 001111
+Passo 29: 110010
+Passo 30: 101100
+Passo 31: 010110
+Passo 32: 111110
+Estado final do LFSR: 111110

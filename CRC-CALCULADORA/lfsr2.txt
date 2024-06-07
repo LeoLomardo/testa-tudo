@@ -1,0 +1,34 @@
+Passo	I	R6	R5	R4	R3	R2	R1	
+Passo 1	1	1	0	0	0	0	0	
+Passo 2	1	1	1	0	0	0	0	
+Passo 3	0	0	1	1	0	0	0	
+Passo 4	0	0	0	1	1	0	0	
+Passo 5	1	1	0	0	1	1	0	
+Passo 6	1	1	1	0	0	1	1	
+Passo 7	1	0	1	1	0	0	1	
+Passo 8	0	1	0	1	1	0	0	
+Passo 9	1	1	1	0	1	1	0	
+Passo 10	1	1	1	1	0	1	1	
+Passo 11	0	1	1	1	1	0	1	
+Passo 12	1	0	1	1	1	1	0	
+Passo 13	1	1	0	1	1	1	1	
+Passo 14	0	1	1	0	1	1	1	
+Passo 15	1	0	1	1	0	1	1	
+Passo 16	0	1	0	1	1	0	1	
+Passo 17	1	0	1	0	1	1	0	
+Passo 18	0	0	0	1	0	1	1	
+Passo 19	1	0	0	0	1	0	1	
+Passo 20	0	1	0	0	0	1	0	
+Passo 21	1	1	1	0	0	0	1	
+Passo 22	0	1	1	1	0	0	0	
+Passo 23	1	1	1	1	1	0	0	
+Passo 24	1	1	1	1	1	1	0	
+Passo 25	1	1	1	1	1	1	1	
+Passo 26	0	1	1	1	1	1	1	
+Passo 27	1	0	1	1	1	1	1	
+Passo 28	1	0	0	1	1	1	1	
+Passo 29	0	1	0	0	1	1	1	
+Passo 30	1	0	1	0	0	1	1	
+Passo 31	0	1	0	1	0	0	1	
+Passo 32	1	0	1	0	1	0	0	
+Final	        0	1	0	1	0	0	
